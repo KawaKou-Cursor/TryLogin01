@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>WEBアプリのログイン画面</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="WEBアプリのロゴ">
+        </div>
+        <div class="form">
+            <h1>ログイン</h1>
+            <p>WEBアプリにログインするには、メールアドレスとパスワードを入力してください。</p>
+            <input type="email" id="email" placeholder="メールアドレス" required>
+            <input type="password" id="password" placeholder="パスワード" required>
+            <button id="login" onclick="login()">ログイン</button>
+            <p>アカウントをお持ちでない方は<a href="signup.html">こちら</a>から登録してください。</p>
+        </div>
+    </div>
+</body>
+</html>
